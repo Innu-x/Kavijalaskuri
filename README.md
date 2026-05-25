@@ -7,4 +7,4 @@ Käyttö: Ohjelman avautuessa, valitse sopivin nappi ja paina, tieto tallentuu a
 
 Iina Hirvonen 2026
 
-<img width="702" height="684" alt="kavijalaskuri" src="https://github.com/user-attachments/assets/f64684ad-79c3-476a-9484-ec65307f7016" />
+<img width="351" height="342" alt="kavijalaskuri" src="https://github.com/user-attachments/assets/f64684ad-79c3-476a-9484-ec65307f7016" />
