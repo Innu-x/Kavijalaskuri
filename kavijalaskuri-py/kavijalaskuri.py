@@ -31,7 +31,7 @@ def lisaa_kavija(kayttaja_tyyppi, sukupuoli, ika): 	#tämä suoritetaan kun pain
     text=f"Tallennettu: {kayttaja_tyyppi} / {sukupuoli} / {ika}"
 )
     ikkuna.after(
-    2000,
+    2000,            #ilmoituksen viive
     lambda: status_label.config(text="")
 )
     print("Tallennettu:", merkinta) 	#näyttää tehdyn muutoksen ja että tallennus onnistui
