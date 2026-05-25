@@ -3,6 +3,8 @@ Ohjelman tarkoitus on helpottaa kävijöiden laskemista ja tilastointia esim. va
 
 Käynnistys: Käyttäjän tulee ensin ladata projektin tiedostot GitHubista omalle koneelle. Tämän jälkeen ohjelma käynnistetään komentokehotteessa: python kavijalaskuri.py -komennolla projektikansiossa. Jos avataan MacOS tai Linux terminaalissa käytetään komentoa: python3 kavijalaskuri.py. Tilastojen käynnistyksessä komento vaihdetaan: python tilastot.py
 
+Käyttö: Ohjelman avautuessa, valitse sopivin nappi ja paina, tieto tallentuu automaattisesti.
+
 Iina Hirvonen 2026
 
 <img width="702" height="684" alt="kavijalaskuri" src="https://github.com/user-attachments/assets/f64684ad-79c3-476a-9484-ec65307f7016" />
