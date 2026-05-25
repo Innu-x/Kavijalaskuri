@@ -1,5 +1,5 @@
 Käyttöohje:
-käynnistä ohjelmavalitse: uusi tuttavuus / vanha konkari -> sukupuoli -> ikäryhmä
+käynnistä ohjelma ja valitse: uusi tuttavuus / vanha konkari -> sukupuoli -> ikäryhmä
 Klikkaa nappia
 Ohjelma tallentaa tiedot automaattisesti
 Tilastot voidaan avata tilastot.py tiedostolla
