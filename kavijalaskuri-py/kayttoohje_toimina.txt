@@ -1,0 +1,6 @@
+Käyttöohje:
+käynnistä ohjelmavalitse: uusi tuttavuus / vanha konkari -> sukupuoli -> ikäryhmä
+Klikkaa nappia
+Ohjelma tallentaa tiedot automaattisesti
+Tilastot voidaan avata tilastot.py tiedostolla
+Luo automattisesti kuukausi- ja kvartaaliraportit omaan kansioon
