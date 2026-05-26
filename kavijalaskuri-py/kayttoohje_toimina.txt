@@ -13,7 +13,7 @@ Kävijälaskuri
 Suorita terminaalissa: python3 kavijalaskuri.py
 
 Tilastot
-Suorita komentokehotteessa: python tilastot.py
+Suorita komentokehotteessa: python3 tilastot.py
 
 Ohjelman käyttö
 Kävijän lisääminen
