@@ -1,7 +1,58 @@
-Käyttöohje:
-käynnistä ohjelma ja valitse: uusi tuttavuus / vanha konkari -> sukupuoli -> ikäryhmä
-Klikkaa nappia
-Ohjelma tallentaa tiedot automaattisesti
-Tilastot voidaan avata tilastot.py tiedostolla
-Luo automattisesti kuukausi- ja kvartaaliraportit omaan kansioon
-Voit tarkastella kuukausi- ja kvartaaliraportteja avaamalla raportit kansion
+Käyttöohje
+Ohjelman nimi: Kävijälaskuri
+Ohjelman tarkoitus: Ohjelmalla voidaan tallentaa tapahtuman tai tilaisuuden kävijöitä ikäryhmän, sukupuolen ja käyttäjätyypin mukaan.
+Ohjelma tallentaa tiedot automaattisesti JSON-tiedostoon ja osaa muodostaa kuukausi- sekä kvartaaliraportit.
+
+Ohjelman käynnistäminen
+Tarvittavat kirjastot
+Ohjelma käyttää vain Pythonin omia kirjastoja:
+tkinter, json, os, collections ja datetime
+Erillisiä asennuksia ei tarvita.
+
+Kävijälaskuri
+Suorita terminaalissa: python3 kavijalaskuri.py
+
+Tilastot
+Suorita komentokehotteessa: python tilastot.py
+
+Ohjelman käyttö
+Kävijän lisääminen
+Valitse:
+-	Vanha konkari tai Uusi tuttavuus
+-	Sukupuoli
+-	Ikäryhmä
+Paina oikeaa nappia.
+Ohjelma tallentaa tiedon automaattisesti.
+
+Raportit
+Raporttiohjelma luo:
+-	kuukausiraportin
+-	kvartaaliraportin
+Raportit tallennetaan kansioon: raportit
+
+Ohjelman rakenne
+Ohjelma koostuu kahdesta osasta:
+käyttöliittymä
+raportointijärjestelmä
+Käyttöliittymä on tehty Tkinterillä.
+Tallennus tapahtuu JSON-muotoiseen tiedostoon.
+
+Tärkeimmät funktiot
+-	lisaa_kavija()
+  -	Tallentaa yhden kävijän tiedot.
+-	tallenna_data()
+  -	Tallentaa datan data.json-tiedostoon.
+-	lataa_data()
+  -	Lataa aiemmin tallennetut tiedot.
+-	laske_kuukausitilastot()
+  -	Laskee kuukausittaiset tilastot.
+-	laske_kvartaalitilastot()
+  -	Laskee kvartaalikohtaiset tilastot.
+-	Tiedostotallennus
+  -	Tallennus tapahtuu tiedostoon:
+  -	data.json
+  -	Tieto tallennetaan JSON-muodossa listana.
+
+Iina Hirvonen
+
+
