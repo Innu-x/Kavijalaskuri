@@ -1,0 +1,16 @@
+
+2026 Q2
+------------------------------
+Yhteensä: 15
+Vanhat konkarit: 6
+Uudet tuttavuudet: 9
+Sukupuolet:
+ - muu: 3
+ - mies: 5
+ - nainen: 7
+Ikäryhmät:
+ - 50-64: 3
+ - 30-49: 6
+ - 65+: 2
+ - 18-29: 3
+ - <18: 1
