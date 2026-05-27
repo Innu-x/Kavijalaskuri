@@ -37,7 +37,7 @@ def lisaa_kavija(kayttaja_tyyppi, sukupuoli, ika): 	#tämä suoritetaan kun pain
     print("Tallennettu:", merkinta) 	#näyttää tehdyn muutoksen ja että tallennus onnistui
 
 # ASETUKSET
-IKARYHMAT = [		#eka näytetään napissa ja toinen tallennetaan tiedostoon
+IKARYHMAT = [		#eka tallennetaan tiedostoon ja toinen näytetään napissa 
     ("<18", "<18"),
     ("18–29", "18-29"),
     ("30–49", "30-49"),
