@@ -1,4 +1,4 @@
-Käyttöohje
+# Käyttöohje
 
 Ohjelman nimi: Kävijälaskuri
 Ohjelman tarkoitus: Ohjelmalla voidaan tallentaa tapahtuman tai tilaisuuden kävijöitä ikäryhmän, sukupuolen ja käyttäjätyypin mukaan.
