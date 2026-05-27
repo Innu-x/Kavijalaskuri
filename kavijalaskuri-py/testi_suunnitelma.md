@@ -1,7 +1,5 @@
 # Testi suunnitelma
 
-Testit:
-
 painetaan nappia -> data.json syntyy -> pass
 
 painetaan kolmea eri nappia -> kolme merkintää tiedostoon -> pass
