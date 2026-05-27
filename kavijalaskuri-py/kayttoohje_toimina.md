@@ -1,4 +1,5 @@
 Käyttöohje
+
 Ohjelman nimi: Kävijälaskuri
 Ohjelman tarkoitus: Ohjelmalla voidaan tallentaa tapahtuman tai tilaisuuden kävijöitä ikäryhmän, sukupuolen ja käyttäjätyypin mukaan.
 Ohjelma tallentaa tiedot automaattisesti JSON-tiedostoon ja osaa muodostaa kuukausi- sekä kvartaaliraportit.
