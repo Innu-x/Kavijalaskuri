@@ -40,19 +40,19 @@ Tallennus tapahtuu JSON-muotoiseen tiedostoon.
 
 Tärkeimmät funktiot
 -	lisaa_kavija()
-  -	Tallentaa yhden kävijän tiedot.
+    -	Tallentaa yhden kävijän tiedot.
 -	tallenna_data()
-  -	Tallentaa datan data.json-tiedostoon.
+    -	Tallentaa datan data.json-tiedostoon.
 -	lataa_data()
-  -	Lataa aiemmin tallennetut tiedot.
+    -	Lataa aiemmin tallennetut tiedot.
 -	laske_kuukausitilastot()
-  -	Laskee kuukausittaiset tilastot.
+    -	Laskee kuukausittaiset tilastot.
 -	laske_kvartaalitilastot()
-  -	Laskee kvartaalikohtaiset tilastot.
+    -	Laskee kvartaalikohtaiset tilastot.
 -	Tiedostotallennus
-  -	Tallennus tapahtuu tiedostoon:
-  -	data.json
-  -	Tieto tallennetaan JSON-muodossa listana.
+    -	Tallennus tapahtuu tiedostoon:
+    -	data.json
+    -	Tieto tallennetaan JSON-muodossa listana.
 
 Iina Hirvonen
 
