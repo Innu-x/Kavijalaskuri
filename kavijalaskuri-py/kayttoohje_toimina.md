@@ -1,42 +1,47 @@
 # Käyttöohje
 
 Ohjelman nimi: Kävijälaskuri
-Ohjelman tarkoitus: Ohjelmalla voidaan tallentaa tapahtuman tai tilaisuuden kävijöitä ikäryhmän, sukupuolen ja käyttäjätyypin mukaan.
-Ohjelma tallentaa tiedot automaattisesti JSON-tiedostoon ja osaa muodostaa kuukausi- sekä kvartaaliraportit.
 
-Ohjelman käynnistäminen
-Tarvittavat kirjastot
-Ohjelma käyttää vain Pythonin omia kirjastoja:
-tkinter, json, os, collections ja datetime
-Erillisiä asennuksia ei tarvita.
+Ohjelman tarkoitus: 
+Ohjelmalla voidaan tallentaa tapahtuman tai tilaisuuden kävijöitä ikäryhmän, sukupuolen ja käyttäjätyypin mukaan. Ohjelma tallentaa tiedot automaattisesti JSON-tiedostoon ja osaa muodostaa kuukausi- sekä kvartaaliraportit.
 
-Kävijälaskuri
-Suorita terminaalissa: python3 kavijalaskuri.py
+Ohjelman käynnistäminen:
 
-Tilastot
-Suorita komentokehotteessa: python3 tilastot.py
+Tarvittavat kirjastot, ohjelma käyttää vain Pythonin omia kirjastoja:
+- tkinter, json, os, collections ja datetime. Erillisiä asennuksia ei tarvita.
 
-Ohjelman käyttö
+Kävijälaskurin käynnistys
+- Suorita terminaalissa: python3 kavijalaskuri.py
+
+Tilastojen käynnistys
+- Suorita komentokehotteessa: python3 tilastot.py
+
+Ohjelman käyttö:
+
 Kävijän lisääminen
+
 Valitse:
 -	Vanha konkari tai Uusi tuttavuus
 -	Sukupuoli
 -	Ikäryhmä
-Paina oikeaa nappia.
-Ohjelma tallentaa tiedon automaattisesti.
+Paina valitsemaasi nappia. Ohjelma tallentaa tiedon automaattisesti.
 
 Raportit
+
 Raporttiohjelma luo:
 -	kuukausiraportin
 -	kvartaaliraportin
 Raportit tallennetaan kansioon: raportit
 
 Ohjelman rakenne
+
 Ohjelma koostuu kahdesta osasta:
-käyttöliittymä
-raportointijärjestelmä
-Käyttöliittymä on tehty Tkinterillä.
-Tallennus tapahtuu JSON-muotoiseen tiedostoon.
+
+- käyttöliittymä
+
+- raportointijärjestelmä
+
+Käyttöliittymä on tehty Tkinterillä. Tallennus tapahtuu JSON-muotoiseen tiedostoon.
 
 Tärkeimmät funktiot
 -	lisaa_kavija()
@@ -54,6 +59,6 @@ Tärkeimmät funktiot
     -	data.json
     -	Tieto tallennetaan JSON-muodossa listana.
 
-Iina Hirvonen
+Iina Hirvonen 2026
 
 
