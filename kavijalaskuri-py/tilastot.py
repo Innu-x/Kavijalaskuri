@@ -109,9 +109,9 @@ def tallenna_raportti(
             )
             # ikäryhmät siistiksi myös
             tiedosto.write("Ikäryhmät:\n")
-                for ika, maara in arvot["iat"].items():
-                    tiedosto.write(
-                f" - {ika}: {maara}\n"
+            for ika, maara in arvot["iat"].items():
+                tiedosto.write(
+                    f" - {ika}: {maara}\n"
             )
     print(f"Raportti tallennettu: {polku}")
 
