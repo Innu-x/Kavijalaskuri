@@ -69,8 +69,12 @@ def tulosta_tilastot(tilastot):
         print("Yhteensä:", arvot["yhteensa"])
         print("Vanhat konkarit:", arvot["vanha"])
         print("Uudet tuttavuudet:", arvot["uusi"])
-        print("Sukupuolet:", dict(arvot["sukupuolet"]))
-        print("Ikäryhmät:", dict(arvot["iat"]))
+        print("\nSukupuolet:")
+        for sukupuoli, maara in arvot["sukupuolet"].items():
+            print(f" - {sukupuoli}: {maara}")
+        print("\nIkäryhmät:")
+        for ika, maara in arvot["iat"].items():
+            print(f" - {ika} - {maara}")
 def tallenna_raportti(
     tiedostonimi,
     tilastot
@@ -97,11 +101,17 @@ def tallenna_raportti(
             tiedosto.write(
                 f"Uudet tuttavuudet: {arvot['uusi']}\n"
             )
-            tiedosto.write(
-                f"Sukupuolet: {dict(arvot['sukupuolet'])}\n"
+            #sukupulet siistiksi
+            tiedosto.write("Sukupuolet:\n")
+            for sukupuoli, maara in arvot["sukupuolet"].items():
+                tiedosto.write(
+                    f" - {sukupuoli}: {maara}\n"
             )
-            tiedosto.write(
-                f"Ikäryhmät: {dict(arvot['iat'])}\n"
+            # ikäryhmät siistiksi myös
+            tiedosto.write("Ikäryhmät:\n")
+                for ika, maara in arvot["iat"].items():
+                    tiedosto.write(
+                f" - {ika}: {maara}\n"
             )
     print(f"Raportti tallennettu: {polku}")
 
